@@ -5,19 +5,79 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio-style.css">
+    <style>
+        
+        .navbar{
+            display: inline-flex;
+            justify-content: center;
+            border: 2px solid rgb(30, 114, 163);
+            border-radius: 30px;
+            padding: 10px;
+            width: 100px;
+            margin: 5px 13.1%;
+            background-color: rgb(17, 76, 121);
+            box-shadow: 1px 1px 20px 3px rgb(70, 134, 230);
+            a:visited{
+                color:rgb(255, 255, 255);
+            }
+            a:hover{
+                color:rgb(5, 255, 18);
+            }
+        }
+        body {
+  background: linear-gradient(to bottom, #75a8ec, #8894bc);
+  height:100vh;
+  margin: 0;
+}
+
+
+        .name{
+            display: flexbox;
+            border: 2px solid rgb(30, 114, 163);
+            border-radius: 50px;
+            padding: 20px;
+            width: 800px;
+            margin: 70px 300px;
+            text-align: center;
+            background-color: rgb(6, 12, 80);
+            box-shadow: 1px 1px 20px 3px rgb(36, 189, 219);
+
+        }
+        .about{
+            display: flexbox;
+            border: 2px solid rgb(30, 114, 163);
+            border-radius: 50px;
+            padding: 20px;
+            width: 500px;
+            margin: 50px 450px;
+            text-align: center;
+            background-color: rgb(6, 12, 80);
+            box-shadow: 1px 1px 20px 3px rgb(36, 189, 219);
+            line-height: 1.5;
+        
+
+
+        }
+        .about p{
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
    <header>
     <nav>
-         <a href="index.html">home </a>
-         <a href="">Projects</a>
-         <a href="contact.html">contact </a>
+         <div class="navbar"><a href="index.html">home </a></div>
+         <div class="navbar"><a href="projects.html">Projects</a></div>
+         <div class="navbar"><a href="contact.html">contact </a></div>
+         <style>
+
+         </style>
     </nav>
 
    </header>
    <main>
-    <div><h1>Ishaan Maheshwari | Developer | student</h1></div>
-    <section>
+    <div><h1 class="name">Ishaan Maheshwari | Developer | Student</h1></div>
+    <section class ="about">
         <h1>About me</h1>
         <p>
             I'm a Computer Science student with a strong interest in building practical, real-world tech solutions. I enjoy working with Python, C, SQL, and web technologies, and I’m constantly exploring new tools to improve my skills in software development and problem-solving.
