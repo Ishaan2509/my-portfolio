@@ -4,14 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .contact{
+            display: flex;
+            justify-content: end;
+        }
+        .contact > div{
+
+            border: 2px solid rgb(30, 114, 163);
+            border-radius: 50px;
+            padding: 20px;
+            width: 500px;
+            text-align: center;
+            background-color: rgb(6, 12, 80);
+            box-shadow: 1px 1px 20px 3px rgb(36, 189, 219);
+            line-height: 1.5;
+            font-size: 1.2em;
+            margin:200px 100px;
+            float:left
+        }
+        .image{
+            margin:100px;
+            border: 2px solid black;
+            border-radius: 50px;
+            box-shadow: 1px 1px 20px 3px rgb(36, 189, 219);
+        }
+
+
+    </style>
 </head>
 <body>
     <header>
         <nav>
-        <a href="index.html">home </a>
-         <a href="projects.html">Projects</a>
-         <a href="contact.html">contact </a>
+        <div class="navback"></div>
+         <div class="navbar"><a href="index.html">home </a></div>
+         <div class="navbar"><a href="projects.html">Projects</a></div>
+         <div class="navbar"><a href="contact.html">contact </a></div>
         </nav>
+
+        <section class="contact">
+            <img src="image/time.png" alt="" height="500px" class="image">
+            <div>
+                <h1>Contact Me</h1>
+                <p>
+                    Whether it’s a project idea, collaboration, or a quick question, I’m open to conversations that lead to learning and growth. Let’s build something meaningful.
+                    <div>Email: Ishaan2509@gmail.com</div>
+                    <div>Contact no: 9667148330</div>
+                    <div>github: github.com/Ishaan2509</div>
+
+                </p>
+            </div>
+
+
+        </section>
 
     </header>
 
